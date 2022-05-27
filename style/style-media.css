@@ -436,8 +436,7 @@ right: 0;
 
     .email_form {
         padding: 30px 110px 30px 10px;
-        font-size: 20px;
-
+        font-size: 16px;
     }
 
     .submit_form {
@@ -547,6 +546,7 @@ right: 0;
 }
 
 @media only screen and (max-width : 360px) {
+
     .subtitle {
         max-width: 280px;
     }
@@ -556,11 +556,8 @@ right: 0;
     }
 
 
-    .email_form {
-        padding: 30px 110px 30px 10px;
-        font-size: 16px;
 
-    }
+
     .submit_form {
         margin: 20px 0 20px 0;
         padding: 0 10px 0 10px;

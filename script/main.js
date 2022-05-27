@@ -1,5 +1,15 @@
-
-
+const screenWidth = window.screen.width;
+const availableScreenWidth = window.screen.availWidth;
+const windowOuterWidth = window.outerWidth;
+const windowInnerWidth = window.innerWidth;
+const windowInnerWidth2 = document.documentElement.clientWidth;
+const pageWidth = document.documentElement.scrollWidth;
+console.log(screenWidth);
+console.log(availableScreenWidth);
+console.log(windowOuterWidth);
+console.log(windowInnerWidth);
+console.log(windowInnerWidth2);
+console.log(pageWidth);
 
 
 //меню 
