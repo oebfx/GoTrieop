@@ -592,4 +592,8 @@
     }
 }
 
-@media (max-width : 176px) {}
+@media (max-width : 414px) {
+    .subtitle{
+        padding-top: 1000px;
+    }
+}
