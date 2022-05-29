@@ -1,10 +1,10 @@
-@media only screen and (max-width : 1680px) {
+@media (max-width : 1680px) {
     .back_img {
         top: 150px;
     }
 }
 
-@media only screen and (max-width : 1430px) {
+@media (max-width : 1430px) {
     .back_img {
         top: 170px;
     }
@@ -15,10 +15,11 @@
     }
 }
 
-@media only screen and (max-width : 1280px) {
+@media (max-width : 1280px) {
     .back_img {
         top: 175px;
     }
+
     .swiper {
 
         right: -100px;
@@ -35,10 +36,12 @@
     } */
 
 }
-@media only screen and (max-width : 1200px) {
+
+@media (max-width : 1200px) {
     .back_img {
         top: 175px;
     }
+
     .swiper {
 
         right: -200px;
@@ -49,16 +52,19 @@
         max-width: 800px;
 
     }
+
     .back_img {
         display: none;
     }
 
 
 }
-@media only screen and (max-width : 1100px) {
+
+@media (max-width : 1100px) {
     .back_img {
         top: 175px;
     }
+
     .swiper {
 
         right: -250px;
@@ -72,7 +78,8 @@
 
 
 }
-@media only screen and (max-width : 1050px) {
+
+@media (max-width : 1050px) {
 
 
     .swiper {
@@ -87,7 +94,7 @@
 
 }
 
-@media only screen and (max-width : 950px) {
+@media (max-width : 950px) {
     .nav-items {
 
         gap: 40px;
@@ -110,7 +117,7 @@
 
     .swiper {
         max-width: 380px;
-        
+
     }
 
     .section-2 {
@@ -224,7 +231,7 @@
 
 }
 
-@media only screen and (max-width : 800px) {
+@media (max-width : 800px) {
 
     .authorization {
         display: none;
@@ -244,7 +251,7 @@
 
     .swiper {
         max-width: 340px;
-right: 0;
+        right: 0;
     }
 
     .mobile-menu span {
@@ -289,7 +296,7 @@ right: 0;
 
 }
 
-@media only screen and (max-width : 740px) {
+@media (max-width : 740px) {
     .circle_back2 {
         display: none;
     }
@@ -336,8 +343,10 @@ right: 0;
         top: 55px;
 
     }
-    .circle-section-4-1, .circle-section-4-2 {
-        opacity:0.3;
+
+    .circle-section-4-1,
+    .circle-section-4-2 {
+        opacity: 0.3;
     }
 
     .subtitle-section-4 {
@@ -374,7 +383,7 @@ right: 0;
 
 }
 
-@media only screen and (max-width : 600px) {
+@media (max-width : 600px) {
     .title {
         font-size: 45px;
         line-height: 65px;
@@ -430,13 +439,14 @@ right: 0;
         font-size: 18px;
         margin-bottom: 30px;
     }
+
     .form {
         justify-content: center;
     }
 
     .email_form {
         padding: 30px 110px 30px 10px;
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .submit_form {
@@ -448,7 +458,7 @@ right: 0;
     }
 }
 
-@media only screen and (max-width : 500px) {
+@media (max-width : 500px) {
     .wave_back2 {
 
         top: 19%;
@@ -545,7 +555,7 @@ right: 0;
     }
 }
 
-@media only screen and (max-width : 360px) {
+@media (max-width : 360px) {
 
     .subtitle {
         max-width: 280px;
@@ -556,7 +566,10 @@ right: 0;
     }
 
 
-
+    .email_form {
+        padding: 30px 110px 30px 10px;
+        font-size: 16px;
+    }
 
     .submit_form {
         margin: 20px 0 20px 0;
@@ -565,8 +578,12 @@ right: 0;
         font-size: 16px;
 
     }
+
+    .title-section-5 {
+        margin-top: 1000px;
+    }
 }
 
-@media only screen and (max-width : 240px) {}
+@media (max-width : 240px) {}
 
-@media only screen and (max-width : 176px) {}
+@media (max-width : 176px) {}
