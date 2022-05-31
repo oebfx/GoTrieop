@@ -370,6 +370,7 @@
     .email_form {
         padding: 40px 250px 40px 40px;
         font-size: 20px;
+        width: 90%;
 
     }
 
@@ -383,7 +384,7 @@
 
 }
 
-@media (max-width : 600px) {
+@media (max-width : 620px) {
     .title {
         font-size: 45px;
         line-height: 65px;
@@ -402,7 +403,7 @@
         top: 400px;
         left: 0;
         right: 0;
-        max-width: 100%;
+        max-width: 85%;
     }
 
     .swiper-slide-next {
@@ -445,14 +446,15 @@
     }
 
     .email_form {
-        padding: 30px 110px 30px 10px;
+        padding: 30px 110px 30px 30px;
         font-size: 20px;
     }
 
     .submit_form {
+        border-radius:20px;
         margin: 20px 0 20px 0;
         padding: 0 10px 0 10px;
-        margin-left: -105px;
+        margin-left: -110px;
         font-size: 16px;
 
     }
@@ -554,6 +556,12 @@
         padding-bottom: 30px;
     }
 }
+@media (max-width : 430px) {
+    .email_form {
+        padding: 30px 110px 30px 10px;
+        font-size: 16px;
+    }
+}
 
 @media (max-width : 360px) {
 
@@ -568,32 +576,21 @@
 
     .email_form {
         padding: 30px 110px 30px 10px;
-        font-size: 16px;
+        font-size: 14px;
+        width: 95%;
     }
 
     .submit_form {
         margin: 20px 0 20px 0;
-        padding: 0 10px 0 10px;
-        margin-left: -105px;
-        font-size: 16px;
+        padding: 0 5px 0 5px;
+        margin-left: -90px;
+        font-size: 14px;
 
     }
- 
+
+
 }
 
-@media (max-width : 375px) {
-    .p2 {
-        padding-top: 1000px;
-    }
-}
-@media (max-width : 320px) {
-    .title {
-        padding-top: 1000px;
-    }
-}
+@media (max-width : 240px) {}
 
-@media (max-width : 414px) {
-    .subtitle{
-        padding-top: 1000px;
-    }
-}
+@media (max-width : 176px) {}

@@ -1,17 +1,3 @@
-const screenWidth = window.screen.width;
-const availableScreenWidth = window.screen.availWidth;
-const windowOuterWidth = window.outerWidth;
-const windowInnerWidth = window.innerWidth;
-const windowInnerWidth2 = document.documentElement.clientWidth;
-const pageWidth = document.documentElement.scrollWidth;
-console.log(screenWidth);
-console.log(availableScreenWidth);
-console.log(windowOuterWidth);
-console.log(windowInnerWidth);
-console.log(windowInnerWidth2);
-console.log(pageWidth);
-
-
 //меню 
 const mobile_menu = document.querySelector('.mobile-menu');
 const menu = document.querySelector('.nav-items');
@@ -77,9 +63,9 @@ const swiper = new Swiper('.swiper', {
     slidesPerView: 1,
 
     breakpoints: {
-        533: {
+        610: {
             slidesPerView: 1,
-            
+
         },
         800: {
             slidesPerView: 2,
@@ -100,8 +86,40 @@ const swiper = new Swiper('.swiper', {
 
         prevEl: '.swipe-btn-prev',
         nextEl: '.swipe-btn-next',
-        
+
 
     },
 
 });
+
+const menu_item = document.querySelectorAll('.nav-item');
+
+
+function MenuItemActive() {
+
+
+    menu_item.forEach(e => {
+        e.addEventListener('click', (event) => {
+
+            MenuItemActiveRemove();
+            e.classList.add("active");
+
+         })
+    })
+}
+
+
+function MenuItemActiveRemove() {
+    menu_item.forEach(element => {
+        element.classList.remove("active");
+
+    })
+}
+function MenuItemActiveAdd() {
+    menu_item.forEach(element => {
+        element.classList.add("active");
+
+    })
+}
+
+ MenuItemActive()
